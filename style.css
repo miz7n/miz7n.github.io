@@ -1,0 +1,118 @@
+/* Estilos personalizados */
+.curvas {
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  
+  .curva-img {
+    position: absolute;
+    top: 34%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    max-width: 17%;
+    max-height: 60%;
+  }
+  
+  .curva-svg {
+    width: 200%;
+    height: 280px;
+  }
+
+  
+  
+  
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .call-to-action {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    /* Estilos para dispositivos móveis */
+    .curva-img {
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+      max-width: 100%;
+      max-height: 200px;
+    }
+  }
+
+  .curva {
+    background-color: #edb578;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .curva-content {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  
+  
+  .curva-img-circle {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .curva-img-circle img {
+    display: block;
+    max-width: 500%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  
+
+  .curva-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .quadrado-chamativo {
+    display: inline-block;
+    background-color: #f77737;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .quadrado-chamativo p {
+    margin: 0;
+  }
+  
+  .btn-ver-cardapio {
+  width: 200px; /* Defina a largura desejada */
+}
+
+.curva {
+  /* ... outros estilos ... */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.curva-button {
+  /* ... outros estilos ... */
+  margin-left: 210px;
+}
+
+  
